@@ -11,15 +11,15 @@ export const Community = () => {
       {/* Navigation */}
       <Navbar1 
         logo={{
-          url: "/",
+          url: "#/",
           src: "/tc-logo.png",
           alt: "Tight & Compact Storage Logo"
         }}
         navLinks={[
-          { title: "About", url: "/about" },
-          { title: "FAQ", url: "/faq" },
-          { title: "Community", url: "/community" },
-          { title: "Contact", url: "/contact" }
+          { title: "About", url: "#/about" },
+          { title: "FAQ", url: "#/faq" },
+          { title: "Community", url: "#/community" },
+          { title: "Contact", url: "#/contact" }
         ]}
         buttons={[
           { title: "(506) 252-8751", variant: "secondary" },
@@ -159,7 +159,7 @@ export const Community = () => {
       {/* Footer */}
       <Footer12 
         logo={{
-          url: "/",
+          url: "#/",
           src: "/tc-logo.png",
           alt: "Tight & Compact Storage Logo"
         }}
@@ -172,17 +172,17 @@ export const Community = () => {
         columnLinks={[
           {
             links: [
-              { title: "Home", url: "/" },
-              { title: "About", url: "/about" },
+              { title: "Home", url: "#/" },
+              { title: "About", url: "#/about" },
               { title: "Unit Sizes", url: "#unit-sizes" },
               { title: "Security", url: "#security" }
             ]
           },
           {
             links: [
-              { title: "FAQ", url: "/faq" },
-              { title: "Community", url: "/community" },
-              { title: "Contact", url: "/contact" },
+              { title: "FAQ", url: "#/faq" },
+              { title: "Community", url: "#/community" },
+              { title: "Contact", url: "#/contact" },
               { title: "Moving Truck", url: "#moving-truck" }
             ]
           }
