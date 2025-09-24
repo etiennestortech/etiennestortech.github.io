@@ -42,7 +42,7 @@ export const Home = () => {
           { title: "Find Your Unit", variant: "secondary-alt", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") }
         ]}
         image={{
-          src: "/enhanced-hero-image.png",
+          src: "/enhanced-hero-image.jpg",
           alt: "Enhanced view of Tight & Compact Storage facility with modern security features"
         }}
       />
@@ -178,7 +178,7 @@ export const Home = () => {
           {
             tagline: "Solutions",
             image: {
-              src: "/business-storage.png",
+              src: "/business-storage.jpg",
               alt: "Commercial Storage Solutions"
             },
             heading: "Business Solutions",
