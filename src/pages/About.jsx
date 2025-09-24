@@ -24,7 +24,7 @@ export const About = () => {
         ]}
         buttons={[
           { title: "(506) 252-8751", variant: "secondary" },
-          { title: "Rent Now", variant: "primary" }
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") }
         ]}
       />
 
@@ -93,7 +93,7 @@ export const About = () => {
           }
         ]}
         buttons={[
-          { title: "Find Your Unit", variant: "primary" }
+          { title: "Find Your Unit", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") }
         ]}
         className="bg-background-secondary"
       />
@@ -130,8 +130,8 @@ export const About = () => {
           }
         ]}
         buttons={[
-          { title: "Rent Now", variant: "primary" },
-          { title: "About", variant: "secondary", onClick: () => window.location.href = "/about" }
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") },
+          { title: "About", variant: "secondary", onClick: () => window.location.href = "#/about" }
         ]}
         image={{
           src: "/security-keypad.jpg",
@@ -177,7 +177,7 @@ export const About = () => {
         heading="Ready to Store with Tight & Compact?"
         description="Contact us today to reserve your unit for our Fall 2025 opening"
         buttons={[
-          { title: "Rent Now", variant: "primary" },
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") },
           { title: "(506) 252-8751", variant: "secondary" }
         ]}
         columnLinks={[

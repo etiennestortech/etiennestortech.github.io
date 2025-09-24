@@ -28,7 +28,7 @@ export const Home = () => {
         ]}
         buttons={[
           { title: "(506) 252-8751", variant: "secondary" },
-          { title: "Rent Now", variant: "primary" }
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") }
         ]}
       />
 
@@ -38,8 +38,8 @@ export const Home = () => {
         heading="Secure Self Storage in Moncton, NB"
         description="Your local storage solution with uncompromising security."
         buttons={[
-          { title: "Rent Now", variant: "primary" },
-          { title: "Find Your Unit", variant: "secondary-alt" }
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") },
+          { title: "Find Your Unit", variant: "secondary-alt", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") }
         ]}
         image={{
           src: "/enhanced-hero-image.png",
@@ -75,7 +75,7 @@ export const Home = () => {
           }
         ]}
         buttons={[
-          { title: "Find Your Unit", variant: "primary" }
+          { title: "Find Your Unit", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") }
         ]}
       />
       
@@ -103,7 +103,7 @@ export const Home = () => {
           }
         ]}
         buttons={[
-          { title: "Rent Now", variant: "secondary" },
+          { title: "Rent Now", variant: "secondary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") },
           { title: "About", variant: "link" }
         ]}
         image={{
@@ -153,7 +153,7 @@ export const Home = () => {
           }
         ]}
         buttons={[
-          { title: "Find Your Unit", variant: "secondary" }
+          { title: "Find Your Unit", variant: "secondary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") }
         ]}
       />
       
@@ -270,7 +270,7 @@ export const Home = () => {
         heading="Ready to Store with Tight & Compact?"
         description="Contact us today to reserve your unit for our Fall 2025 opening"
         buttons={[
-          { title: "Rent Now", variant: "primary" },
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") },
           { title: "(506) 252-8751", variant: "secondary" }
         ]}
         columnLinks={[

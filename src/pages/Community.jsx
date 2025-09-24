@@ -23,7 +23,7 @@ export const Community = () => {
         ]}
         buttons={[
           { title: "(506) 252-8751", variant: "secondary" },
-          { title: "Rent Now", variant: "primary" }
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") }
         ]}
       />
 
@@ -166,7 +166,7 @@ export const Community = () => {
         heading="Ready to Store with Tight & Compact?"
         description="Contact us today to reserve your unit for our Fall 2025 opening"
         buttons={[
-          { title: "Rent Now", variant: "primary" },
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") },
           { title: "(506) 252-8751", variant: "secondary" }
         ]}
         columnLinks={[
