@@ -32,8 +32,8 @@ export const Community = () => {
         heading="Community Partnership"
         description="Supporting local organizations that make a difference in Moncton and beyond"
         image={{
-          src: "/fulfilling-hearts-dog-mat.jpg",
-          alt: "Fulfilling Hearts Rescue dog on Tight & Compact Storage mat"
+          src: "/community-hero.jpg",
+          alt: "Community partnership and support in Moncton"
         }}
       />
 
