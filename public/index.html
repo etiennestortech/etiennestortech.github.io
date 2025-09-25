@@ -9,6 +9,9 @@
       name="description"
       content="TC Storage - Professional self storage solutions with secure units and convenient access."
     />
+    <!-- Cache optimization meta tags -->
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000" />
+    <meta http-equiv="Expires" content="31536000" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -25,6 +28,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>TC Storage - Self Storage Solutions</title>
+    <script>
+      // Register Service Worker for enhanced caching
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
       // Start single page app as normal
