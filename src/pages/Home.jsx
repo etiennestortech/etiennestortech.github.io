@@ -9,6 +9,7 @@ import { Layout366 } from "../components/features/Layout366";
 import { Stats2 } from "../components/stats/Stats2";
 import { Faq3 } from "../components/faqs/Faq3";
 import { Footer12 } from "../components/footers/Footer12";
+import { Contact10 } from "../components/contact/Contact10";
 
 export const Home = () => {
   return (
@@ -257,6 +258,21 @@ export const Home = () => {
             title: "What unit sizes are available?",
             answer: "We offer a range of sizes from small units for personal items to extra-large units for commercial storage. Browse our unit sizes to find the perfect fit for your needs."
           }
+        ]}
+      />
+      
+      {/* Call to Action */}
+      <Contact10 
+        image={{
+          src: "/security-keypad.jpg",
+          alt: "Secure keypad access at Tight & Compact Storage"
+        }}
+        tagline="Ready to Get Started?"
+        heading="Reserve Your Unit Today"
+        description="Join the hundreds of customers who trust Tight & Compact Storage for their secure storage needs. Pre-reserve your unit now for our Fall 2025 opening and lock in our launch pricing."
+        buttons={[
+          { title: "Rent Now", variant: "primary", onClick: () => window.open("https://stortech-dev.webflow.io/storefront/checkout?storefront_id=52&facility_id=36", "_blank") },
+          { title: "Contact Us", variant: "secondary", onClick: () => window.location.href = "#/contact" }
         ]}
       />
       
