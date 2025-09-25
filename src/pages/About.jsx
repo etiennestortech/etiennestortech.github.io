@@ -57,7 +57,7 @@ export const About = () => {
             <div>
               <img 
                 src="/tc-team.jpg" 
-                alt="Tight & Compact Storage team" 
+                alt="Eric from Tight & Compact Storage with company business card" 
                 className="w-full h-full object-cover rounded-md"
               />
             </div>
